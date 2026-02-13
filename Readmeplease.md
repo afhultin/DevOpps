@@ -78,11 +78,12 @@ Create a .env file in the root directory:
 
 
 
-DB\_NAME=demo
+DB_HOST=db
+DB_PORT=5432
+DB_NAME=citydb
+DB_USER=city
+DB_PASSWORD=citypass
 
-DB\_USER=demo
-
-DB\_PASSWORD=demo
 
 
 
@@ -430,6 +431,7 @@ demo
 Important: use db, not localhost.
 
 Inside Docker, services communicate using service names.
+
 
 
 
