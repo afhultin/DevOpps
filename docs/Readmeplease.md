@@ -7,6 +7,7 @@ Table of Contents
 4. Back End team guide
 5. QA team guide
 6. Common issues
+7. HELP MY FIRST TIME GIT COMMITING HERE!!
 
 1) Project overview
 
@@ -125,3 +126,10 @@ App not updating after edits:
 - Rebuild with docker compose up --build -d
 
 This setup is for development and team handoff, not production hardening.
+
+7) Create a fork them commit using GitHub Desktop; this is YOUR FORK not editing class repo yet
+    -Open your fork: ex: https://github.com/rdupart/DevOpps
+    -Click Contribute → Open pull request
+    -Base repo: 2026-Spring-A451-Wolfe/DevOpps, -base branch: main
+    -Compare repo: rdupart/DevOpps, compare -branch: main
+    -Create PR
