@@ -144,3 +144,4 @@ This setup is for development and team handoff, not production hardening.
         Port: 55432
         DB/user/pass: from .env
         3. Make chnages to the database via datagrip editor, and once done save sql script chnages in the db folder; ex:db/migrations/001_init.sql
+        Tip: having a convention is a good idea for ex: db/migrations, db/seeds, etc.
