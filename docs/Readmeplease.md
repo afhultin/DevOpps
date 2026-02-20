@@ -8,6 +8,7 @@ Table of Contents
 5. QA team guide
 6. Common issues
 7. HELP MY FIRST TIME GIT COMMITING HERE!!
+8. Database Management
 
 1) Project overview
 
@@ -127,9 +128,19 @@ App not updating after edits:
 
 This setup is for development and team handoff, not production hardening.
 
-7) Create a fork them commit using GitHub Desktop; this is YOUR FORK not editing class repo yet
+7) First time Committing
+    -Create a fork them commit using GitHub Desktop; this is YOUR FORK not editing class repo yet
     -Open your fork: ex: https://github.com/rdupart/DevOpps
     -Click Contribute → Open pull request
     -Base repo: 2026-Spring-A451-Wolfe/DevOpps, -base branch: main
     -Compare repo: rdupart/DevOpps, compare -branch: main
     -Create PR
+8. Database Management
+    -The folder db is where the final database is
+    -in Datagrip db team will create and maintain schemas, write documentation so changes made in datagrip are tracked, validate queries/endpoitns against real data
+    -Instructions:
+        1. Start Stack:docker compose up --build -d
+        2. In datagrip connect it by inputting: Host: localhost
+        Port: 55432
+        DB/user/pass: from .env
+        3. Make chnages to the database via datagrip editor, and once done save sql script chnages in the db folder; ex:db/migrations/001_init.sql
